@@ -24,6 +24,10 @@ ul{
     list-style: none;
 }
 
+.logo{
+    margin-right: 25px;
+}
+
 body{
     font-family: 'Inter', sans-serif;
     color: #000;
@@ -281,4 +285,170 @@ body{
     justify-content: center;
     align-items: center;
     gap: 0 20px;
+}
+
+@media (max-width: 1468px){
+    .choose-color-list{
+        flex-wrap: wrap;
+    }
+
+    .header-content-images img{
+        max-width: 100%;
+    }
+
+    .title{
+        font-size: 180px;
+        transform: translate(135px, 10px);
+    }
+
+    .title--ax{
+        transform: translate(-100px, 440px);
+    }
+
+}
+
+@media (max-width: 1200px){
+    .title{
+        transform: none;
+        font-size: 140px;
+        padding-top: 15vh;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .title--pod{
+        z-index: -1;
+    }
+
+    .title--s{
+        transform: none;
+        padding-right: 25px;
+    }
+
+    .title--m{
+        transform: none;
+    }
+
+    .title--ax{
+        transform: none;
+    }
+}
+
+@media (max-width: 930px){
+    .title{
+        position: relative;
+        font-size: 100px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 770px){
+    .title{
+        font-size: 55px;
+    }
+
+    .choose-color{
+        padding-bottom: 60px;
+    }
+
+    .choose-color-list{
+        gap: 20px;
+    }
+
+    .choose-color-text{
+        margin: 0 auto 30px;
+    }
+
+    .main-title{
+        font-size: 36px;
+    }
+
+    .composition{
+        margin-bottom: 40px;
+    }
+
+    .energy-title{
+        padding-top: 55px;
+    }
+
+    .energy-num{
+        font-size: 115px;
+    }
+
+    .footer-list{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 540px){
+    .case{
+        padding: 30px 0 50px;
+    }
+
+    .composition-inner{
+        flex-wrap: wrap;
+    }
+
+    .composition-inner-text p{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .composition-inner img{
+        margin: 0 auto;
+    }
+
+    .menu-list{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu-btn{
+        justify-content: center;
+        margin-left: 9vh;
+        margin-top: 10px;
+    }
+
+    .logo{
+        padding: 0;
+        margin-bottom: 7vh;
+    }
+    
+}
+
+@media (max-width: 414px){
+    .header{
+        min-height: 80vh;
+    }
+
+    .main-title{
+        font-size: 28px;
+    }
+
+    .choose-color-title{
+        font-size: 28px;
+    }
+
+    .energy-num{
+        font-size: 80px;
+    }
+
+    .case img{
+        max-width: 100%;
+    }
+
+
+}
+
+@media (max-width: 394px){
+    .title{
+        font-size: 48px;
+    }
+
+    .header{
+        min-height: 40vh;
+    }
 }
