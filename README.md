@@ -1,5 +1,8 @@
 <html lang="en">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Inter:wght@500;700&display=swap');
+        </style> 
 </head>
 <body>
 
@@ -16,8 +19,10 @@
     <style>
         *{
             text-align: center;
-            color: #98FB98;
-            background-color: #4B0082;
+            color: #8A2BE2;
+            font-family: 'AR One Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
+            
         }
 
         a{
@@ -36,9 +41,9 @@
             width: 80px;
             height: 20px;
             border-radius: 25px;
-            background-color: #00FA9A;
+            background-color: #8A2BE2;
             padding: 10px 15px;
-            color: #000;
+            color: #87CEFA;
         
         }
     </style>
