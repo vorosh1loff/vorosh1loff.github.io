@@ -31,7 +31,7 @@
 
         .main-container{
             margin: 0 auto;
-            margin-top: 40vh;
+            margin-top: 25vh;
             width: 100vh;
             height: 50vh;
         }
@@ -44,7 +44,7 @@
             background-color: #8A2BE2;
             padding: 10px 15px;
             color: #87CEFA;
-        
+            cursor: pointer;
         }
     </style>
 </body>
