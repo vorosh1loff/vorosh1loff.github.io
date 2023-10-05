@@ -60,6 +60,14 @@ body{
     padding: 40px 0;
 }
 
+.content-item{
+    display: none;
+}
+
+.content-item-active{
+    display: inline-block;
+}
+
 .menu-list{
     display: flex;
     gap: 0 40px;
@@ -90,8 +98,27 @@ body{
     right: 0;
     left: 0;
     width: 100%;
+    z-index: -2; 
+}
+
+.header-content-images:has(.color--blue.content-item-active)::before{
     background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
-    z-index: -2;
+}
+
+.header-content-images:has(.color--black.content-item-active)::before{
+    background: linear-gradient(180deg, #B6B6B6 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.header-content-images:has(.color--green.content-item-active)::before{
+    background: linear-gradient(180deg, #DDEAD9 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.header-content-images:has(.color--red.content-item-active)::before{
+    background: linear-gradient(180deg, #F3D6D1 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.header-content-images:has(.color--white.content-item-active)::before{
+    background: linear-gradient(180deg, #FAFAFA 0%, rgba(235, 235, 235, 0.00) 100%);
 }
 
 
@@ -151,6 +178,10 @@ body{
     border: 1px solid grey;
     border-radius: 20px;
     padding: 50px 55px;
+}
+
+.choose-color-btn-active{
+    display: none;
 }
 
 .composition{
