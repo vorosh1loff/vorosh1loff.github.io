@@ -8,7 +8,7 @@
 
 <div align="center">
     
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&pause=1000&color=#8A2BE2&random=false&width=435&lines=Welcome+to+start%2C+my+name+is+Evgeniy!" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&pause=2000&color=8A2BE2&random=false&width=435&height=100&lines=Welcome+to+start%2C+my+name+is+Evgeniy!" alt="Typing SVG" /></a>
 
 </div>
 
