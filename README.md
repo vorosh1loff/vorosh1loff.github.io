@@ -16,9 +16,7 @@
     
 </div>
 
-<div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=400&size=21&pause=2000&color=44DA00&center=true&vCenter=true&random=false&width=600&height=75&lines=Welcome+to+my+GitHub+account%2C+my+name+is+Evgeniy!" alt="Typing SVG" /></a>
-</div>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&pause=1000&color=F70000&random=false&width=435&lines=Welcome+to+start!" alt="Typing SVG" /></a>
 
     <style>
         *{
