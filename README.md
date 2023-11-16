@@ -6,15 +6,19 @@
 </head>
 <body>
 
-<div class="main-container">
-    <h1>Hello everyone!</h1>
+<div align="center">
+    
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=19&pause=2000&color=8A2BE2&random=false&width=435&height=100&lines=Welcome+to+start%2C+my+name+is+Evgeniy!" alt="Typing SVG" /></a>
 
-    <p>My name is Evgeniy, I live in Russia. And it's my repository root.</p>
-    <p>Меня зовут Евгений, Я живу в России. И это начальная точка моего репозитория. Его корень (root)</p>
+</div>
+
+<div class="main-container">
 
     <a class="btn" href="https://github.com/vorosh1loff" alt="https://github.com/vorosh1loff">*Click me*</a>
     
 </div>
+
+
 
     <style>
         *{
